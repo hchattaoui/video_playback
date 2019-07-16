@@ -28,7 +28,7 @@ def play(video_file_path, fps, width, height, monochrome):
         print("Error opening video stream or file")
 
     while(cap.isOpened()):
-        prev_frame=frame[:]
+        prev_frame=frame
         ret, frame = cap.read()
 
         cv2.namedWindow('frame',cv2.WINDOW_NORMAL)
