@@ -39,7 +39,7 @@ def play(video_file_path, fps, width, height, monochrome):
 
         if ret == True:
             cv2.imshow('frame',frame)
-            key = cv2.waitKey(fps)
+            key = cv2.waitKey(int((1/fps)*1000))
 
             if key == ord('p'):
                 key = cv2.waitKey(0)
