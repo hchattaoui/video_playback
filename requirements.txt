@@ -95,7 +95,7 @@ spacy==0.101.0
 sputnik==0.9.3
 stanfordcorenlp==3.8.0.1
 tensorboard==1.13.1
-tensorflow==1.13.1
+tensorflow==2.9.3
 tensorflow-estimator==1.13.0
 termcolor==1.1.0
 terminado==0.8.1
